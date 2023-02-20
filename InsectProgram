@@ -1,0 +1,12 @@
+import Insect_class as I
+
+# this is creating an instance of the insect class
+
+mosquito = I.Insect("mosquito", 2, 4)
+housefly = I.Insect("housefly", 2, 4)
+
+mosquito.flight_length()
+housefly.flight_length()
+
+print(f"the mosquito can fly up to (mosquito.get_miles()) miles")
+print(f"the house fly can fly up to {housefly.get_miles()}")
